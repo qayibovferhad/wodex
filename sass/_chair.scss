@@ -1,0 +1,55 @@
+.chair{
+    cursor: pointer;
+    font-family: "limerick-regular", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+   
+    .chair-textbox{
+        h1{
+            color: #22222b;
+            font-size: 36px;
+        }
+        h4{
+            color: #7a7a7a;
+            font-size: 16px;
+        }
+    }
+    .chair-card{
+        &:hover .card-ul{
+            display:  block !important;
+        }
+        .card-info{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .card-img{
+            position: relative;
+            .card-ul{
+        transition:all .5s ease;
+
+                display: none;
+               bottom: 15px;
+               right: 10px;
+                position: absolute;
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    li{
+                        i{
+                            padding: 5px;
+                            background-color: white;
+                            &:hover{
+                                color: white;
+                                background-color: black;
+                            }
+                        }
+                    }
+               
+                }
+            }
+         img{
+             width: 100% ;
+         }
+        }
+    }
+}

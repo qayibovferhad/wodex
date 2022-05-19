@@ -1,0 +1,52 @@
+.custom{
+  font-family: "limerick-regular", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+overflow: hidden !important;
+margin-top: 50px;
+margin-bottom: 150px;
+  .custom-img{
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+    .img-text{
+      width: 40%;
+      position: absolute;
+      h2{
+        color:#22222b;
+        font-size: 20px;
+      }
+      h1{
+        color: #22222b;
+        font-size: 36px;
+        padding: 2.125rem 0  2.125rem;
+      }
+      a{
+        color: #22222b;
+        font-size: 20px; 
+        text-decoration: none;
+      }
+    }
+  }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width:768px) {
+  .custom{
+    display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .custom{
+    display: block;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

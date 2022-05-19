@@ -1,0 +1,34 @@
+.instant{
+    font-family: "limerick-regular", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+
+    margin-top: 100px;
+    .instant-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    .instant-text{
+        position: absolute;
+        h3{
+            font-size: 25px;
+    line-height: 2.2em;
+        }
+        h1{
+            font-size: 36px;
+            padding: 5px 0px 10px;
+        }
+        a{
+            color:#22222b;
+            text-decoration:none ;
+            padding: 13px 30px;
+            font-size: 19px;
+            background-color: white;
+            transition: .5s ;
+            &:hover{
+                background-color:  #fdbf70 ;
+            }
+        }
+       
+    }
+}
+}

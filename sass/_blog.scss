@@ -1,0 +1,75 @@
+.blog{
+    overflow: hidden;
+    margin-top: 100px;
+    font-family: "limerick-regular", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+    .blog-textbox{
+        h1{
+            font-size: 36px;
+            color: #22222b;
+        }
+        h4{
+            font-size: 18px;
+            color: #7A7A7A;
+        }
+    }
+    .blog-box{
+        width: 100%;
+        &:hover img{
+            transform: scale(1.07);
+        }
+        .blog-img{
+            img{
+                transition: 0.8s all;
+                width: 85%;
+            }
+        }
+        .blog-title{
+            width: 85%;
+            display: flex;
+            justify-content: space-between;
+            h4{
+                font-size: 15px;
+                color: #7f7f82;
+            }
+        
+        }
+        .blog-font{
+            width: 85%;
+            h1{
+                color: #22222b;
+                font-size: 20px;
+            }
+            p{
+                font-size: 16px;
+                color: #7f7f82;
+            }
+        }
+        .carousel-indicators{
+         position: absolute;
+         bottom: -10px;
+         right:65px;
+        }
+            .carousel-item{
+                width: 85%;
+                img{
+                    width: 85% ;
+                }
+            }
+        
+      
+    }
+}
+@media only screen and (max-width: 600px) {
+.blog-box{
+    margin-left: 50px;
+}
+
+}
+
+@media only screen and (min-width: 600px) {
+    .blog-box{
+        margin-left: 50px;
+    }
+
+}

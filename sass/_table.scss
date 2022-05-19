@@ -1,0 +1,64 @@
+.table{
+    cursor: pointer;
+    font-family: "limerick-regular", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+
+    .table-textbox{
+
+        h1{
+            color: #22222b;
+            font-size: 36px;
+        }
+        p{
+            color: #7a7a7a;
+            font-size: 16px;
+        }
+    }
+    .tablecard{
+        &:hover .card-ul{
+            display:block !important;
+        }
+        .table-info{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h1{
+                font-size: 16px;
+              color: #22222b;
+            }
+            h4{
+                color: #22222b;
+                font-size: 14px;
+            }
+        }
+        .table-img{
+            position: relative;
+            .card-ul{
+                transition:all .5s ease;
+        
+                        display: none;
+                       bottom: 15px;
+                       right: 10px;
+                        position: absolute;
+                        ul{
+                            display: flex;
+                            flex-direction: column;
+                            li{
+                                i{
+                                    padding: 5px;
+                                    background-color: white;
+                                    &:hover{
+                                        color: white;
+                                        background-color: black;
+                                    }
+                                }
+                            }
+                       
+                        }
+                    }
+            img{
+                width: 100% !important;
+            }
+        }
+    }
+}

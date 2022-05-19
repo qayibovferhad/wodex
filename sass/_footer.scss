@@ -1,0 +1,124 @@
+.footer{
+    margin-top: 100px;
+    overflow: hidden;
+    font-family: "limerick-regular", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+    .container-fluid{
+        .footer-box{
+        .footer-box-img{
+            h4{
+                font-size: 16px;
+                color: #7f7f82;
+            }
+        }
+        .footer-box-info{
+            h4{
+               font-size: 16px;
+               color: #7f7f82;
+            }
+        }
+        .footer-box-cus{
+            h1{
+                font-size: 18px;
+                color: #22222b;
+            }
+        }
+        .footer-box-ul{
+            ul{
+                a{
+                    font-size: 16px;
+                    color: #22222b;
+                    text-decoration: none;
+                }
+            }
+        }
+        .footer-box-store{
+            h1{
+               font-size: 18px;
+               color: #22222b;
+            }
+        }
+    }
+    .footer-newsletter{
+        h1{
+            color: #22222b;
+            font-size:20px ;
+        }
+        p{
+            color: #7f7f82;
+            font-size: 16px;
+        }
+        .footer-news-mail{
+     
+            .mail{
+                width: 70%;
+                height: 2.5rem;
+                color: #22222b;
+                border: 0;
+                border-bottom: 1px solid #ebebeb;
+            }
+            .send{
+                color: #22222b;
+                background: transparent;
+                border: 0;
+                
+            }
+        }
+    }
+     
+    }
+
+    .footer-text{
+        width: 100% !important;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ul{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            li{
+                margin-right: 18px ;
+                color: #22222b;
+               font-size: 16px;
+            }
+        }
+    }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .footer-box{
+        margin-bottom: 50px;
+    }
+    .footer-text{
+        width: 100% !important;
+        ul{
+            width: 100%;
+        }
+        .footer-adv{
+            display: none;
+        }
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .footer-box{
+        margin-bottom: 50px;
+    }
+    .footer-text{
+        width: 100% !important;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .footer-text{
+        width: 100% !important;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

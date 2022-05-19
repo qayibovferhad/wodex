@@ -1,0 +1,36 @@
+.beds{
+    font-family: "limerick-regular", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+    margin-top: 150px;
+    margin-bottom: 150px;
+    .beds-img{
+        position: relative;
+        display: flex;
+        align-items: center;
+        .beds-text{
+            width: 25%;
+            position: absolute;
+            h4{
+                color: #22222b;
+                font-size: 20px;
+                
+            }
+            h1{
+                color: #22222b;
+                font-size: 36px;
+                padding: 2.125rem 0  2.125rem;
+            }
+            a{
+                color: #22222b;
+        font-size: 20px; 
+        text-decoration: none;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    .beds{
+      display: none;
+    }
+  }
+  
